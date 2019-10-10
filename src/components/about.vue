@@ -1,8 +1,8 @@
 <template>
     <v-container fluid class="container">
         <div class="wrap">
-        <h1>About Me</h1>  
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <h1 data-aos="fade-up" data-aos-once="true" >About Me</h1>  
+        <p data-aos="fade-up" data-aos-once="true" >Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Aliquid hic a pariatur sunt minus, earum nemo dicta 
              dolore atque obcaecati repellat fuga neque quo 
              consequuntur fugit incidunt molestias voluptatem iure.
@@ -11,12 +11,16 @@
               sapiente aut eos, tempora blanditiis, ex voluptatem 
               velit cumque inventore fugit consectetur quo. 
               Molestias minus corporis voluptate?</p>
-        <v-btn id="button" dark ripple color="primary" max-width="150px">View Projects</v-btn>
+        <v-btn data-aos="fade-up" data-aos-once="true" id="button" dark ripple max-width="150px">View Skills</v-btn>
          </div>     
     </v-container>
 </template>
 
 <script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 
 import {VBtn} from 'vuetify/lib'
 
@@ -33,6 +37,7 @@ export default {
 }
 
 </script>
+
 
 <style scoped>
 
@@ -63,9 +68,10 @@ export default {
 
 .wrap p {
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: #888;
     font-size: 22px;
     margin-bottom: 50px;
+    max-width: 75%;
     
     
 }

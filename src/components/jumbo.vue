@@ -54,7 +54,7 @@ body {
 
 .container h2 {
     position:absolute;
-    top: 48%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 25px;
