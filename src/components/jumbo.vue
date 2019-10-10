@@ -1,10 +1,8 @@
 <template>
 <v-container fluid class="container">
-        <v-img id='mainImg' src="../assets/code.jpg" height="500" gradient="to top right, rgba(33,33,33,.6), rgba(33,33,33,.9)">
+        <v-img id='mainImg' src="../assets/code.jpg" height="500" gradient="to top right, rgba(33,33,33,.6), rgba(33,33,33,.9)"></v-img>
         <h1>Tyson Elfors</h1>
-        <h2>Web Developer & Designer</h2>
-        </v-img>
-
+        <h2> &ltWeb Developer&gt <br> & Designer</h2>
 </v-container>
 </template>
 
@@ -27,27 +25,40 @@ export default {
 </script>
 
 <style scoped>
+body {
+    
+}
+
 
 .container{
     margin: 0;
     padding: 0;
     position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.container h1, h2 {
+    font-family: 'Raleway', sans-serif;
 }
 
 .container h1 {
-    position: absolute; 
+    position:absolute;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    white-space: nowrap;
+    font-size: 45px;
 }
 
 .container h2 {
-    position: absolute; 
-    top: 42%;
+    position:absolute;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    line-height: 25px;
+    white-space: nowrap;
 };
 
 
