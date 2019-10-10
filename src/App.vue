@@ -10,17 +10,20 @@
 
     <v-content>
       <jumbo-tron></jumbo-tron>
+      <about-me></about-me>
     </v-content>
   </v-app>
 </template>
 
 <script>
 import JumboTron from './components/jumbo'
+import AboutMe from './components/about'
 
 export default {
   name: 'App',
   components: {
     JumboTron,
+    AboutMe,
   
   },
   data: () => ({
