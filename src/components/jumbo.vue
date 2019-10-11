@@ -1,5 +1,5 @@
 <template>
-<v-container fluid class="container">
+<v-container class="container">
         <v-img id='mainImg' src="../assets/code.jpg" height="95vh" gradient="to top right, rgba(33,33,33,.6), rgba(33,33,33,.9)"></v-img>
         <h1>Tyson Elfors</h1>
         <h2>Web Developer<br>and Designer</h2>
@@ -25,10 +25,6 @@ export default {
 </script>
 
 <style scoped>
-body {
-    
-}
-
 
 .container{
     margin: 0;

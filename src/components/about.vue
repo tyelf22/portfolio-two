@@ -1,9 +1,9 @@
 <template>
-    <v-container fluid class="container">
+    <v-container class="container">
         <div class="wrap">
         <h1 data-aos="fade-up" data-aos-once="true" data-aos-delay="100" >About Me</h1>  
         <p data-aos="fade-up" data-aos-once="true" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Aliquid hic a pariatur sunt minus, earum nemo dicta 
+             Jpc hic a pariatur sunt minus, earum nemo dicta 
              dolore atque obcaecati repellat fuga neque quo 
              consequuntur fugit incidunt molestias voluptatem iure.
               Lorem ipsum dolor sit amet consectetur adipisicing 
