@@ -1,5 +1,5 @@
 <template>
-<v-container class="container">
+<v-container fluid class="jumboContainer">
         <v-img id='mainImg' src="../assets/code.jpg" height="95vh" gradient="to top right, rgba(33,33,33,.6), rgba(33,33,33,.9)"></v-img>
         <h1>Tyson Elfors</h1>
         <h2>Web Developer<br>and Designer</h2>
@@ -24,9 +24,9 @@ export default {
 
 </script>
 
-<style scoped>
+<style>
 
-.container{
+.jumboContainer{
     margin: 0;
     padding: 0;
     position: relative;
@@ -35,11 +35,11 @@ export default {
 
 }
 
-.container h1, h2 {
+.jumboContainer h1, h2 {
     font-family: 'Raleway', sans-serif;
 }
 
-.container h1 {
+.jumboContainer h1 {
     position:absolute;
     top: 35%;
     left: 50%;
@@ -48,7 +48,7 @@ export default {
     font-size: 3rem;
 }
 
-.container h2 {
+.jumboContainer h2 {
     position:absolute;
     top: 43%;
     left: 50%;
