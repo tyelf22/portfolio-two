@@ -1,6 +1,6 @@
 <template>
 <v-container fluid class="container">
-        <v-img id='mainImg' src="../assets/code.jpg" height="900" gradient="to top right, rgba(33,33,33,.6), rgba(33,33,33,.9)"></v-img>
+        <v-img id='mainImg' src="../assets/code.jpg" height="95vh" gradient="to top right, rgba(33,33,33,.6), rgba(33,33,33,.9)"></v-img>
         <h1>Tyson Elfors</h1>
         <h2> &ltWeb Developer&gt <br> & Designer</h2>
 </v-container>
@@ -54,7 +54,7 @@ body {
 
 .container h2 {
     position:absolute;
-    top: 42%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 25px;

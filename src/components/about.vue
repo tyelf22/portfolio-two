@@ -1,8 +1,8 @@
 <template>
     <v-container fluid class="container">
         <div class="wrap">
-        <h1 data-aos="fade-up" data-aos-once="true" >About Me</h1>  
-        <p data-aos="fade-up" data-aos-once="true" >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <h1 data-aos="fade-up" data-aos-once="true" data-aos-delay="100" >About Me</h1>  
+        <p data-aos="fade-up" data-aos-once="true" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Aliquid hic a pariatur sunt minus, earum nemo dicta 
              dolore atque obcaecati repellat fuga neque quo 
              consequuntur fugit incidunt molestias voluptatem iure.
@@ -11,7 +11,7 @@
               sapiente aut eos, tempora blanditiis, ex voluptatem 
               velit cumque inventore fugit consectetur quo. 
               Molestias minus corporis voluptate?</p>
-        <v-btn data-aos="fade-up" data-aos-once="true" id="button" dark ripple max-width="150px">View Skills</v-btn>
+        <v-btn data-aos="fade-in" data-aos-once="true" data-aos-delay="400" id="button" dark ripple max-width="150px">View Skills</v-btn>
          </div>     
     </v-container>
 </template>
@@ -21,6 +21,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 
+console.log(window.innerWidth);
 
 import {VBtn} from 'vuetify/lib'
 
@@ -43,7 +44,7 @@ export default {
 
 .container {
     background-color: black;
-    height: 100vh;
+    height: 95vh;
 
 }
 
@@ -61,7 +62,7 @@ export default {
     font-weight: 700; 
     color: white;
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     
 
 }
@@ -69,16 +70,20 @@ export default {
 .wrap p {
     font-family: 'Raleway', sans-serif;
     color: #888;
-    font-size: 22px;
+    font-size: 1rem;
     margin-bottom: 50px;
-    max-width: 75%;
-    
-    
+
+
 }
+    
+@media screen and (min-width: 600px) {
+.wrap p {
+    font-size: 1.4rem;
+    max-width: 75%;
+  }   
 
-
-
-
+} 
+    
 
 
 
